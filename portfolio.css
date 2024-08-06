@@ -1,0 +1,375 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: rgb(0, 0, 41);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    user-select: none;
+}
+.nav1{
+    height: 100vh;
+}
+hr{
+    filter: opacity(0);
+}
+.sticky{
+    position: absolute;
+    z-index: -3;
+    bottom: 0;
+    height: 100%;
+    width: 98%;
+    filter: invert(100%) blur(10px) opacity(0.8);
+    animation: circle-motion 10s infinite;
+    overflow: hidden;
+    background-repeat: repeat;
+}
+.navigation{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+}
+.navigation .logo{
+    color: rgb(10, 10, 87);
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    filter: invert(50%) brightness(2);
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+     padding: 14px 16px; 
+     text-decoration: none;
+     font-family: 'BungeeShade-Regular' ;
+     font-size: 30px;
+     height: fit-content;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+.container h1{
+    background: transparent;
+    color: azure;
+    font-size: 60px;
+    font-family: 'RubikDoodleShadow';
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.37));
+    z-index: 0;
+}
+.container p{
+    background: transparent;
+    color: azure;
+    font-size: 25px;
+    font-family: 'ProtestRevolution';
+    margin: 5px;
+}
+.container .flisha1 img{
+    width: 100px;
+    filter: invert(100%);
+    margin-left: 250px ;
+    margin-top: 1px;
+    padding: 1px;
+}
+.container .flisha2 img{
+    position: absolute;
+    width: 100px;
+    filter: invert(100%);
+    transform: rotate(45deg);
+    margin-left: -220px ;
+    margin-top: -150px;
+    padding: 1px;
+}
+.container .flisha3 img{
+    position: absolute;
+    width: 100px;
+    filter: invert(100%);
+    transform: rotate(270deg);
+    margin-left: 140px ;
+    margin-top: -222px;
+    padding: 1px;
+}
+.container .reff1{
+    position: absolute;
+    margin-top: 250px;
+    font-size: 33px;
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+    font-family: 'ChelseaMarket-Regular';
+    transition: 0.5s;
+    animation: pulse 4s infinite;
+}
+.container .reff2{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 480px ;
+    font-size: 33px;
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+    font-family: 'ChelseaMarket-Regular';
+    animation: pulse 4s infinite;
+    transition: 0.5s;
+}
+.container .reff3{
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 480px;
+    font-size: 38px;
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+    font-family: 'ChelseaMarket-Regular';
+    animation: pulse 4s infinite;
+    transition: 0.5s;
+    
+}
+.container .reff1:hover{
+    scale:1.2;
+}
+.container .reff2:hover{
+    scale:1.2;
+}
+.container .reff3:hover{
+    scale:1.2;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.nav2 h1{
+    color: rgb(255, 255, 255);
+    font-family: 'RubikGlitchPop' ;
+    font-size: 65px;
+    padding-left: 20%;
+    margin-bottom: 10px ;
+    margin-top: 20px;
+    animation: pulse 4s infinite;
+    width: 400px;
+}
+.nav2 p{
+    color: azure;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 200px ;
+    margin-right: 125px ;
+    margin-top: 40px;
+}
+.nav2 .message{
+    position: absolute;
+    width: 1275px;
+    height: 600px;
+    margin-top: 40px;
+    z-index: -1;
+    filter: blur(5px) invert(50%);
+    animation: circle-motion 10s infinite;
+    overflow: hidden;
+}
+.nav3{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.nav3 h1{
+    color: rgb(255, 255, 255);
+    font-family: 'RubikGlitchPop' ;
+    font-size: 65px;
+    padding-left: 20%;
+    margin-bottom: 10px ;
+    margin-top: 20px;
+    animation: pulse 4s infinite;
+    width: 400px;
+}
+.nav3 p{
+    color: azure;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 200px ;
+    margin-right: 125px ;
+    margin-top: 40px;
+    }
+    .nav3 .message{
+        position: absolute;
+        width: 1275px;
+        height: 700px;
+        margin-top: 30px;
+        z-index: -1;
+        filter: blur(5px) invert(50%);
+        animation: circle-motion 10s infinite;
+        overflow: hidden;
+    }
+    .nav4{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .nav4 h1{
+        color: rgb(255, 255, 255);
+        font-family: 'RubikGlitchPop' ;
+        font-size: 65px;
+        padding-left: 20%;
+        margin-bottom: 10px ;
+        margin-top: 20px;
+        animation: pulse 4s infinite;
+        width: 400px;
+    }
+    .nav4 p{
+        color: azure;
+        font-size: 25px;
+        margin-bottom: 5px;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 200px ;
+        margin-right: 125px ;
+        margin-top: 40px;
+        }
+        .nav4 .message{
+            position: absolute;
+            width: 1100px;
+            height: 600px;
+            margin: 50px;
+            z-index: -1;
+            filter: blur(5px) invert(50%);
+            overflow: hidden;
+        }
+span{
+    color: gold;
+}
+.boumerdes{
+    text-decoration: none;
+    color: rgb(189, 130, 238);
+}
+.arrorback{
+    position: fixed;
+    width: 60px;
+    height: 70px;
+    bottom: 5;
+    right: 5;
+    filter:grayscale(100%);
+    animation: pulse 2s infinite;
+    z-index: 456465165;
+}
+.arrorback:hover{
+    scale: 1.1;
+    transition: 1s;
+    }
+@keyframes circle-motion {
+    0% {
+      transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+  }
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  @keyframes pulse2 {
+    0%, 100% {
+      transform: rotate(70deg) scale(1);
+    }
+    50% {
+      transform: rotate(70deg) scale(1.1);
+    }
+  }
+  @keyframes pulse3 {
+    0%, 100% {
+      transform: rotate(70deg) scale(1);
+    }
+    50% {
+      transform: rotate(70deg) scale(1.1);
+    }
+  }
+@font-face {
+    font-family: 'RubikDoodleShadow' ;
+    src: url(fonts/RubikDoodleShadow-Regular.ttf);
+}
+@font-face {
+    font-family:'RubikScribble' ;
+    src: url(fonts/RubikScribble-Regular.ttf);
+}
+@font-face {
+    font-family:'ProtestRevolution';
+    src: url(fonts/ProtestRevolution-Regular.ttf);
+}
+@font-face {
+    font-family:'RubikGlitchPop' ;
+    src: url(fonts/RubikGlitchPop-Regular.ttf);
+}
+@font-face {
+    font-family:'ChelseaMarket-Regular' ;
+    src: url(fonts/ChelseaMarket-Regular.ttf);
+}
+@font-face {
+    font-family: 'BungeeShade-Regular' ;
+    src: url(fonts/BungeeShade-Regular.ttf);
+}
+@media (min-width:950px) and (max-width:1150px){
+   .nav2 .message{
+    width: 900px;
+    height: 600px;
+   }
+}
+@media (max-width:950px){
+    .nav2 .message{
+    width: 500px;
+    height: 600px;
+    margin-top: 0px;
+    overflow: hidden;
+    align-self: center;
+}
+.nav2 h1{
+    align-self: center;
+    transition: 1s;
+}
+.nav2 p{
+    font-size: 16px;
+    width: 300px;
+    align-self: center;
+    transition: 1s;
+}
+.container{
+    width: fit-content;
+}
+.container .reff2{
+    margin-left: 400px;
+    margin-top: 175px;
+    transform: rotate(70deg);
+    animation: pulse2 3s infinite;
+    transition: 0.3s;
+}
+.container .reff3{
+    margin-right: 385px;
+    margin-top: 60px;
+    animation: pulse3 3s infinite;
+    transition: 0.3s;
+}
+}
